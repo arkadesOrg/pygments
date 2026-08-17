@@ -25,7 +25,7 @@ class PureScriptLexer(RegexLexer):
     aliases = ['purescript', 'purs']
     filenames = ['*.purs']
     mimetypes = ['text/x-purescript']
-    version_added = '2.19'
+    version_added = '2.21'
 
     reserved = ('ado', 'case', 'class', 'data', 'derive', 'do', 'else',
                 'false', 'forall', 'foreign', 'if', 'in', 'infix[lr]?',
